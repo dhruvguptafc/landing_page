@@ -1,10 +1,48 @@
 body {
     background: #1F2937;
-    background-position: top;
     font-family: 'Roboto',sans-serif;
     
 }
 .container-1{
     font-size: 24px;
     color: #F9FAf8;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#link {
+     font-size: 24px;
+    color: #F9FAF8;
+    display:flex;
+}
+
+.child-1{
+    font-size: 48px;
+    color:#F9FAf8;
+    font-weight: 900;
+}
+
+.undertitle{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.my-button{
+    background-color: #3882F6;
+    font-size: larger;
+    border-color: #3882F6;
+    border-radius: 10px;
+    padding: 3px 13px;
+}
+
+.imging{
+    font-size: small;
+    color: #F9FAF8;
+    padding: 50px;
+
+    background-color: grey;
 }
